@@ -10,6 +10,6 @@ cache:
 
 before_install:
  - chmod +x gradlew
-
+ - chmod +x phantomjs
  script:
  - ./gradlew test
