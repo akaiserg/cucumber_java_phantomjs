@@ -1,0 +1,226 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4302288549,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": ": I\u0027m on  the site http://parsleyjs.org/doc/examples/simple.html",
+            "match": {
+              "location": "StartPageStep.i_m_on_the_site_http_parsleyjs_org_doc_examples_simple_html()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4113241456,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "When all the field are empty the message should be This form seems to be invalid :(",
+        "description": "",
+        "id": "checking--different--values-on-the-form-of-http://parsleyjs.org/doc/examples/simple.html;when-all-the-field-are-empty-the-message-should-be-this-form-seems-to-be-invalid-:(",
+        "after": [
+          {
+            "result": {
+              "duration": 1029557404,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131956800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": I press the button  Validate",
+            "match": {
+              "location": "PressButtonStep.i_press_the_button_Validate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102445584,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": I see the message \"This form seems to be invalid :(\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This form seems to be invalid :(",
+                  "offset": 21
+                }
+              ],
+              "location": "ValidationMessageStep.i_see_the_message(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7331874,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": I close the browser",
+            "match": {
+              "location": "CloseBrowserStep.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2966027153,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": ": I\u0027m on  the site http://parsleyjs.org/doc/examples/simple.html",
+            "match": {
+              "location": "StartPageStep.i_m_on_the_site_http_parsleyjs_org_doc_examples_simple_html()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2248389754,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "When There are only two   fields with information  the message should be This form seems to be invalid :(",
+        "description": "",
+        "id": "checking--different--values-on-the-form-of-http://parsleyjs.org/doc/examples/simple.html;when-there-are-only-two---fields-with-information--the-message-should-be-this-form-seems-to-be-invalid-:(",
+        "after": [
+          {
+            "result": {
+              "duration": 243009522,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 203165839,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": ": I fill out  the field  name",
+            "match": {
+              "location": "FillOutNameStep.i_fill_out_the_field_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154994188,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": ":  I fill out  the field  email",
+            "match": {
+              "location": "FillOutEmailStep.i_fill_out_the_field_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154553876,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": I press the button  Validate",
+            "match": {
+              "location": "PressButtonStep.i_press_the_button_Validate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82857825,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": I see the message \"This form seems to be invalid :(\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This form seems to be invalid :(",
+                  "offset": 21
+                }
+              ],
+              "location": "ValidationMessageStep.i_see_the_message(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12268714,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": ": I close the browser",
+            "match": {
+              "location": "CloseBrowserStep.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Checking  different  values on the form of http://parsleyjs.org/doc/examples/simple.html",
+    "description": "",
+    "id": "checking--different--values-on-the-form-of-http://parsleyjs.org/doc/examples/simple.html",
+    "keyword": "Feature",
+    "uri": "features/Form.feature"
+  }
+]
