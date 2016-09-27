@@ -49,10 +49,11 @@ public class Hooks {
                 driver = new SafariDriver();
                 break;
             case "phantomjs":
-                DesiredCapabilities caps = new DesiredCapabilities();
+                //DesiredCapabilities caps = new DesiredCapabilities();
                 //caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,"phantomjs.exe");
-                caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,"phantomjs");
-                driver = new PhantomJSDriver(caps);
+                //caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,"phantomjs");
+                //driver = new PhantomJSDriver(caps);
+                driver = new PhantomJSDriver();
                 break;
             default:
                 driver = new ChromeDriver();
