@@ -50,7 +50,8 @@ public class Hooks {
                 break;
             case "phantomjs":
                 DesiredCapabilities caps = new DesiredCapabilities();
-                caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,"phantomjs.exe");
+                //caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,"phantomjs.exe");
+                caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,"phantomjs");
                 driver = new PhantomJSDriver(caps);
                 break;
             default:
